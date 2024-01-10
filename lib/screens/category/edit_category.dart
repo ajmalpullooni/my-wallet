@@ -15,6 +15,7 @@ class _EditCategoryState extends State<EditCategory> {
   TextEditingController _nameEditingController = TextEditingController();
   CategoryType? selectedCategory;
   //CategoryModel? selectedCategorymodel;
+  // ignore: non_constant_identifier_names
   String? CategoryID;
   @override
   void initState() {
@@ -25,6 +26,7 @@ class _EditCategoryState extends State<EditCategory> {
     // String? categoryId;
   }
 
+  @override
   Widget build(BuildContext context) {
     return AlertDialog(
       title:const Padding(
