@@ -7,14 +7,14 @@ ValueNotifier<CategoryType> selectedCategoryNotifier =
     ValueNotifier(CategoryType.income);
 
 Future<void> showCategoryAddPopup(BuildContext context) async {
-  TextEditingController    _nameEditingController = TextEditingController();
+  TextEditingController _nameEditingController = TextEditingController();
   showDialog(
 
       context: context,
       builder: (ctx) {
         return SimpleDialog(
           backgroundColor: Colors.white ,
-          title: const Text('Add Category',style: TextStyle(fontSize: 16),
+          title: const Text('Add Category',style: TextStyle(fontSize: 18),
           ),
           children: [
             Padding(
