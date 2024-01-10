@@ -84,7 +84,7 @@ class _EditCategoryState extends State<EditCategory> {
               child: ElevatedButton(
                 
                 onPressed: () {
-                  print('edit button');
+                  print('edit   button');
             
                   editcategorys();
                   Navigator.of(context).pop;
